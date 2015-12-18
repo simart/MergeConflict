@@ -1,11 +1,11 @@
-int i = 0;
+int j = 0;
 void setup()
 {
 }
 void draw()
 {
-  while(i < 10){
+  while(j < 10){
     println("SPAM");
-    i++;
+    j++;
   }
 }
