@@ -1,8 +1,11 @@
+int i = 0;
 void setup()
 {
 }
 void draw()
 {
-  for(int i = 0; i < 3; i++)
-    System.out.println(i);
+  while(i < 10){
+    println("SPAM");
+    i++;
+  }
 }
